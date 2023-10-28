@@ -14,7 +14,7 @@ while True:
     (contours_car1,_) = cv2.findContours(mask_car1,cv2.RETR_EXTERNAL,cv2.CHAIN_APPROX_SIMPLE)#kontür çıkarma
     if len(contours_car1) > 0 :#eğer tespit varsa
         cnt_car_1 = max(contours_car1,key=cv2.contourArea)#kontürlerin en büyüğünü alma
-        #print("Araba 1:"+str(cv2.contourArea(cnt_car_1))+" Araba2:"+str(cv2.contourArea(cnt_car_2))) # alan bulmak için
+        print("Shape Area:"+str(cv2.contourArea(cnt_car_1))) # alan bulmak için
         if int(cv2.contourArea(cnt_car_1)) > alan: # araclar tespit edilirse
             i = 0
             rect_car1 = cv2.minAreaRect(cnt_car_1)#dikdötrgenleri alma

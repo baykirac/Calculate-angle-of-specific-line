@@ -13,6 +13,6 @@ The purpose of the project is calculating the angle it makes with the x axis of 
 
 ![Ekran görüntüsü 2023-10-28 034601](https://github.com/baykirac/Calculate-angle-of-specific-line/assets/37344628/ef0b3d01-e427-4e96-9ee0-1f4c6070e50f)
 
--Remove the command line at 17 to distinguish the shape from other filtered shapes. This line is for the calculating pixel area. After that check the area values and config _alan_ variable
+-Remove the comment line at 17 to distinguish the shape from other filtered shapes. This line is for the calculating pixel area. After that check the area values and config _alan_ variable
 
 ![image](https://github.com/baykirac/Calculate-angle-of-specific-line/assets/37344628/17d73054-eebd-4895-ac86-e2d1ba29be04)

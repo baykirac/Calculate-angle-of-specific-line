@@ -1,6 +1,6 @@
 # Calculate angle of specific line
 
-The purpose of the project is calculating the angle it makes with the y axis of bottom or upper line using opencv
+The purpose of the project is calculating the angle it makes with the x axis of bottom or upper line using opencv
 
 ## Screenshots
 ![Ekran görüntüsü 2023-10-28 034132](https://github.com/baykirac/Calculate-angle-of-specific-line/assets/37344628/8a7ed94a-4af4-4b7c-a154-651552cf8b18)
